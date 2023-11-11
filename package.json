@@ -1,0 +1,16 @@
+{
+  "name": "NodeJS-RabbitMQ-Messaging",
+  "version": "1.0.0",
+  "description": "This repository demonstrates the implementation of RabbitMQ with NodeJS, showcasing a simple message queue system. The project includes two NodeJS applications - one for sending messages to RabbitMQ and another for consuming and displaying these messages.",
+  "main": "index.js",
+  "repository": "https://github.com/jrodriguezdiazz/NodeJS-RabbitMQ-Messaging.git",
+  "author": "jrodriguezdiazz <jrodriguezdiazz@outlook.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "amqplib": "^0.10.3",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1"
+  }
+}
